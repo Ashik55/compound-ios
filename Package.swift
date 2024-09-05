@@ -22,14 +22,14 @@ let package = Package(
                 .product(name: "CompoundDesignTokens", package: "compound-design-tokens"),
                 .product(name: "SwiftUIIntrospect", package: "SwiftUI-Introspect"),
                 .product(name: "SFSafeSymbols", package: "SFSafeSymbols"),
-                .product(name: "Prefire", package: "Prefire")
             ]
         ),
         .testTarget(
             name: "CompoundTests",
             dependencies: [
                 "Compound",
-                .product(name: "SnapshotTesting", package: "swift-snapshot-testing")
+                .product(name: "SnapshotTesting", package: "swift-snapshot-testing"),
+                .product(name: "Prefire", package: "Prefire")
             ],
             exclude: [
                 "__Snapshots__"
