@@ -8,4 +8,4 @@ Element's design components for iOS
 
 ## License
 
-SPDX-License-Identifier: AGPL-3.0-only. Please see [LICENSE](LICENSE) in the repository root for full details.
+SPDX-License-Identifier: AGPL-3.0-only. Please see [LICENSE](LICENSE) in the repository root for full details. mod by aashiq
